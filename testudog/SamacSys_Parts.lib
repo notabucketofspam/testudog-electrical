@@ -1,0 +1,100 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model WSR5R0100FEA
+#/678243/1278367/2.50/2/4/Resistor
+DEF WSR5R0100FEA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "WSR5R0100FEA" 550 150 50 H V L CNN
+F2 "RESM11670X254N" 550 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-23/453328.pdf" 550 -50 50 H I L CNN
+F4 "VISHAY - WSR5R0100FEA - RESISTOR, METAL STRIP, 0.01 OHM 1%" 550 -150 50 H I L CNN "Description"
+F5 "2.537" 550 -250 50 H I L CNN "Height"
+F6 "71-WSR5R0100FEA" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSR5R0100FEA?qs=4Ewz1atfbqI%252BdJPHTSy7jg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "WSR5R0100FEA" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LMP8481MM-T_NOPB
+#/752341/1278367/2.50/8/3/Integrated Circuit
+DEF LMP8481MM-T_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "LMP8481MM-T_NOPB" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/lmp8481" 950 0 50 H I L CNN
+F4 "76-V, Bi-Directional, High-Side, High-Speed, Voltage Output Current Sensing Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "595-LMP8481MM-T/NOPB" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMP8481MM-T-NOPB?qs=igp4D3uu33J%252B4MTJe0iInA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LMP8481MM-T/NOPB" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RSP 1 0 0 200 R 50 50 0 0 P
+X VCC 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X GND 4 0 -300 200 R 50 50 0 0 P
+X RSN 8 1100 0 200 L 50 50 0 0 P
+X REFA 7 1100 -100 200 L 50 50 0 0 P
+X REFB 6 1100 -200 200 L 50 50 0 0 P
+X VOUT 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BTS6163D
+#/684182/1278367/2.50/5/4/Switch
+DEF BTS6163D S 0 30 Y Y 1 F N
+F0 "S" 950 300 50 H V L CNN
+F1 "BTS6163D" 950 200 50 H V L CNN
+F2 "BTS6163D" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution" 950 -100 50 H I L CNN "Description"
+F5 "2.35" 950 -200 50 H I L CNN "Height"
+F6 "726-BTS6163D" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BTS6163D?qs=9Vqdt%252BdHmfKjgsVCnKIB6w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BTS6163D" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT_1 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X VBB 3 1100 0 200 L 50 50 0 0 P
+X IS 4 0 -200 200 R 50 50 0 0 P
+X OUT_2 5 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

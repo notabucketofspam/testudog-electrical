@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP WSR5R0100FEA
+D VISHAY - WSR5R0100FEA - RESISTOR, METAL STRIP, 0.01 OHM 1%
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-23/453328.pdf
+$ENDCMP
+#
+$CMP LMP8481MM-T_NOPB
+D 76-V, Bi-Directional, High-Side, High-Speed, Voltage Output Current Sensing Amplifier
+K
+F http://www.ti.com/lit/gpn/lmp8481
+$ENDCMP
+#
+$CMP BTS6163D
+D Power Switch ICs - Power Distribution
+K
+F 
+$ENDCMP
+#
+#End Doc Library
